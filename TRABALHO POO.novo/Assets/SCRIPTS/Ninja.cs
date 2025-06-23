@@ -1,16 +1,13 @@
 using UnityEngine;
 
-public class Ninja : MonoBehaviour
+public class Ninja : Personagem
 {
-  
-    void Start()
-    {
-        
-    }
+    public int quantidadeDeShurikens;
+    public int numeroDeClones;
+    public string habilidadeEspecial = "Clone das Sombras";
 
-    
-    void Update()
+    public void UsarHabilidadeEspecial()
     {
-        
+        Debug.Log($"{nome} usou sua habilidade especial: {habilidadeEspecial}!");
     }
 }
