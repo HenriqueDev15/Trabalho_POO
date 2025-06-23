@@ -1,16 +1,9 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class NewMonoBehaviourScript : MonoBehaviour
 {
-    public int vida;
-    public string nome;
+    private string nome;
     public int energia;
-    public int cura;
-    
-    
-    
-    
-    
     void Start()
     {
         
